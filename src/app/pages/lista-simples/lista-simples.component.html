@@ -1,0 +1,25 @@
+<h2>Lista simples de usuário</h2>
+<div>
+    <h1>Lista de usuário</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{ user.id }}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.cpf }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.phone }}</td>
+                <td><button mat-button (click)="goToDetail(user)">Ir para detalhe</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
