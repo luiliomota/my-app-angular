@@ -1,5 +1,7 @@
 # MyApp
 
+Primeiro projeto criado em angular durante curso de Pós-graduação em desenvolvimento FullStack
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
 ## Development server
